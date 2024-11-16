@@ -1,0 +1,415 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    font-family: ' sans-serif';
+    box-sizing: border-box;
+}
+
+.Hero{
+    background: #efefef;
+    width: 100%;
+    color: #00ffbb;
+    position: relative;
+}
+
+nav{
+    display:flex ;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+nav .logo{
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #00ffbb;
+}
+/*
+.section2{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.love{
+    color: #0be83b;
+    width: 120px;
+    margin-top: 15px;
+    height: 30px;
+    outline:#290be8 ;
+    border: 1px solid #290be8;
+    cursor: pointer;
+}
+.section1{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 150PX;
+}
+
+.section2{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 150PX;
+    color: #0be83b;
+}
+
+.loving{
+    width: 100%;
+    margin-top: 10rem;
+    border-radius: 20px 20px 20px 20px;
+    height: 900px;
+}
+
+.Btn{
+    height: 30px;
+    width: 120px;
+    color: #0be83b;
+    border: 2px solid #0be83b;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background:transparent;
+}
+
+.section3{
+    text-align: center;
+    font-size: x-large;
+    color: #0be83b;
+    margin-top: 50px;
+}
+
+.icecream{
+    height: 30px;
+    width: 120px;
+    color: #0be83b;
+    border: 2px solid #0be83b;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    background:transparent;
+    border-radius: 10px 0 0 10px ;
+}
+
+.container{
+    margin: auto 400px;
+}
+
+.h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.p{
+    font-size: large;
+}
+
+.memory{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.promise{
+    font-size: large;
+    text-align: center ;
+}
+
+.heaven p{
+    font-size: 15px;
+}
+
+.win{
+    padding-top: 19px;
+    padding-bottom: 15px;
+}
+
+.Winner{
+    margin-top: 10rem;
+}
+
+.World h1{
+    text-align: center;
+    font-size: 72px;
+}
+.World p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    margin: auto;
+    width: 23%;
+    cursor: pointer;
+    padding-top: 5rem;
+}
+
+.image-container img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.image-container2{
+    display: flex;
+}
+
+.image-container2 img{
+    margin: auto;
+    width: 23%;
+    cursor: pointer;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.image-container2 img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.container-6{
+    padding: 1rem 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #0be83b;
+}
+*/
+footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+footer h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.foo a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #212121;
+}
+
+.foo li{
+    color: black;
+}
+
+
+.section4{
+    margin-top: 10rem;
+}
+
+
+.container4{
+    margin-left: 7rem;
+}
+
+
+.text4 p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #212121;
+}
+
+
+.hr4{
+    width: 8%;
+}
+
+.text4 h1{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 96px;
+    color: #212121;
+}
+
+
+.form-7{
+    width: 980px;
+    margin: auto;
+    padding: 30px;
+    
+}
+
+.form-right input{
+    width: 533px;
+}
+
+
+.input-box input{
+    height: 54px;
+    width: 422px;
+    color: #393939;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.input-box label{
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 27px;
+}
+
+
+.input-box ::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21;
+    color: #3d3d3d;
+    padding: 20px;
+}
+
+.form-2 .column{
+    display: flex;
+    column-gap: 95px;
+}
+
+
+textarea{
+    margin-top: 20px;
+    width: 533px;
+    height: 157px;
+    border: 1px solid #b6b6b6;
+    border-radius: 8px;
+    padding: 16px 12px 16px 12px;
+}
+
+
+.form-2{
+    margin-top: 10rem;
+}
+
+
+.form-2 colon{
+    display: flex;
+    column-gap: 95px;
+}
+
+
+.btn12{
+    position: relative;
+    left: 21rem;
+    margin-top: 30px;
+    width: 204px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 16px 32px 16px 32px;
+    gap: 2px;
+    background: #00ffbb;
+    color: #000;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.section-7{
+    margin-top: 40px;
+}
+
+
+.text-center h1{
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.text-center p{
+    font-size: 17px;
+    margin: 30px auto;
+    text-align: center;
+    width: 70%;
+}
+
+
+
+.Winner{
+    margin-top: 10rem;
+}
+
+.World h1{
+    text-align: center;
+    font-size: 72px;
+}
+.World p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    margin: auto;
+    width: 23%;
+    cursor: pointer;
+    padding-top: 5rem;
+}
+
+.image-container img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.image-container2{
+    display: flex;
+}
+
+.image-container2 img{
+    margin: auto;
+    width: 23%;
+    cursor: pointer;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.image-container2 img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+

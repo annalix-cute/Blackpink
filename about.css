@@ -1,0 +1,226 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    font-family: ' sans-serif';
+    box-sizing: border-box;
+}
+
+.Hero{
+    background: #efefef;
+    width: 100%;
+    color: #fafffe;
+    position: relative;
+}
+
+nav{
+    display:flex ;
+    align-items: center;
+    padding: 20px 8%;
+
+}
+
+nav .logo{
+    width: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.section2{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+.h1{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.love{
+    color: #00ffbb;
+    width: 120px;
+    margin-top: 15px;
+    height: 30px;
+    outline:#00ffbb ;
+    border: 1px solid #00ffbb;
+    cursor: pointer;
+}
+.section1{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 150PX;
+}
+
+.section2{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 150PX;
+    color: #00ffbb;
+}
+
+.loving{
+    width: 100%;
+    margin-top: 10rem;
+    border-radius: 20px 20px 20px 20px;
+    height: 900px;
+}
+
+.Btn{
+    height: 30px;
+    width: 120px;
+    color: #00ffbb;
+    border: 2px solid #00ffbb;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    background:transparent;
+}
+
+.section3{
+    text-align: center;
+    font-size: x-large;
+    color: #00ffbb;
+    margin-top: 50px;
+}
+
+.icecream{
+    height: 30px;
+    width: 120px;
+    color: #00ffbb;
+    border: 2px solid #00ffbb;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: center;
+    background:transparent;
+    border-radius: 10px 0 0 10px ;
+}
+
+.container{
+    margin: auto 400px;
+}
+
+.h1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.p{
+    font-size: large;
+}
+
+.memory{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.promise{
+    font-size: large;
+    text-align: center ;
+}
+
+.heaven p{
+    font-size: 15px;
+}
+
+.win{
+    padding-top: 19px;
+    padding-bottom: 15px;
+}
+
+.Winner{
+    margin-top: 10rem;
+}
+
+.World h1{
+    text-align: center;
+    font-size: 72px;
+}
+.World p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.image-container{
+    display: flex;
+}
+
+.image-container img{
+    margin: auto;
+    width: 23%;
+    cursor: pointer;
+    padding-top: 5rem;
+}
+
+.image-container img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.image-container2{
+    display: flex;
+}
+
+.image-container2 img{
+    margin: auto;
+    width: 23%;
+    cursor: pointer;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.image-container2 img:hover{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: transform 0.5s;
+}
+
+.container-6{
+    padding: 1rem 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    background-color: #00ffbb;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+footer h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.foo a{
+    text-decoration: none;
+    list-style-type: none;
+ ;   color: #000000;
+}
